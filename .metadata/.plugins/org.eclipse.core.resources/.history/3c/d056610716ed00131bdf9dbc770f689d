@@ -1,0 +1,62 @@
+package br.com.fiap.programa;
+
+import java.util.Arrays;
+import java.util.List;
+
+import br.com.fiap.entity.Forum;
+import br.com.fiap.entity.Usuario;
+import br.com.fiap.helper.GenericDaoImpl;
+
+public class TesteForum {
+
+	static GenericDaoImpl<Forum> forumDao = new GenericDaoImpl<Forum>(Forum.class);
+
+	public static void main( String[] args ) {
+		incluirForum();
+		incluirUsuarionoForum();
+		listarUsuariosPorForum();
+	}
+
+	private static void incluirForum() {
+		Forum forum = new Forum();
+		forum.setId( 10 );
+		forum.setAssunto( "Avaliação" );
+		forum.setDescricao( "Avaliação da disciplina Persistência" );
+		forumDao.create( forum );
+	}
+
+	private static void incluirUsuarionoForum() {
+		Forum forum = new Forum();
+		forum.setId( 15 );
+		forum.setAssunto( "Avaliação" );
+		forum.setDescricao( "Avaliação da disciplina Persistência" );
+
+		Usuario u1 = new Usuario();
+		u1.setNome( "teresa" );
+		u1.setEmail( "teresa@mail.com" );
+		u1.setId( 1 );
+		Usuario u2 = new Usuario();
+		u2.setNome( "jonas" );
+		u2.setEmail( "joas@mail.com" );
+		u2.setId( 2 );
+		Usuario u3 = new Usuario();
+		u3.setNome( "abilio" );
+		u3.setEmail( "abilio@mail.com" );
+		u3.setId( 3 );
+
+		forum.getUsuarios().addAll( Arrays.asList( u1, u2, u3 ) );
+		forumDao.create( forum );
+	}
+
+	private static void listarUsuariosPorForum() {
+		GenericDaoImpl<Usuario>usuarioDao = new GenericDaoImpl<Usuario>(Usuario.class);
+		List<Usuario> usuarios = usuarioDao.listAll();
+		
+		for ( Usuario usuario : usuarios ) {
+			System.out.println( "ID Usuario: " + usuario.getId() );
+			System.out.println( "Nome Usuario: " + usuario.getNome() );
+			System.out.println( "Email Usuario: " + usuario.getEmail() );
+			System.out.println( "--------------------------------" );
+		}
+	}
+}
