@@ -1,0 +1,17 @@
+package br.com.imobiliaria.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import br.com.fiap.helper.GenericDaoImpl;
+
+public class TestHibernate {
+
+	GenericDaoImpl<Usuario>usuarioDao = null/
+	@Test
+	public void test() {
+		
+	}
+
+}

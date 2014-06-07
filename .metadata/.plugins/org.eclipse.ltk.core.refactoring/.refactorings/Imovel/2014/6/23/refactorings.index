@@ -1,2 +1,10 @@
 1402016120127	Delete elements
 1402016462043	Delete element
+1402102782420	Move methods
+1402102811510	Move methods
+1402102905673	Move methods
+1402105180888	Rename type 'TestHibernate'
+1402105199322	Rename package 'br.com.fiap.entity'
+1402105217905	Delete element
+1402105231105	Rename package 'br.com.fiap.util'
+1402105245845	Rename package 'br.com.fiap.helper'

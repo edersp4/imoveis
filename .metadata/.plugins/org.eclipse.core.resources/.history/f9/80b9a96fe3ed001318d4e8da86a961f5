@@ -1,0 +1,59 @@
+package br.com.imobiliaria.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.fiap.entity.Imovel;
+import br.com.fiap.entity.Usuario;
+import br.com.fiap.helper.GenericDaoImpl;
+
+public class TestHibernate {
+
+	GenericDaoImpl<Usuario>usuarioDao = new GenericDaoImpl<Usuario>(Usuario.class);
+	GenericDaoImpl<Imovel>imovelDao = new GenericDaoImpl<Imovel>(Imovel.class);
+	
+	public void massaParaImoveis() {
+		List<Imovel> imoveis = new ArrayList<Imovel>();
+		
+		Imovel imovel = new Imovel(1, "São Paulo", "Suzano", "Jardim da Saúde", "Lhubinko Rajkov", "Casa", "Imóvel com 6 cômodos perto de um posto policial",
+				15000.00, "Compra");
+		imoveis.add(imovel);
+
+		imovel = new Imovel(2, "São Paulo", "Mogi das Cruzes", "Jardim Novo Mundo", "Rua dos Desesperados", "Sobrado", "Perto do nada",
+				190000.00, "Compra");
+		imoveis.add(imovel);
+
+		imovel = new Imovel(3, "Acre", "Poá", "Jardim Oliveira", "Rua dos Andantes", "Apartamento", "Perto da Mata",
+				300.00, "Aluguel");
+		imoveis.add(imovel);
+		
+
+		for (Imovel im : imoveis) {
+			imovelDao.create(im);
+		}
+	}
+	
+	public void massaParaUsuarios() {
+		List<Usuario> usuarios = new ArrayList<Usuario>();
+		
+		Usuario usuario = new Usuario(1, "São Paulo", "Suzano", "Jardim da Saúde", "Lhubinko Rajkov", "Casa", "Imóvel com 6 cômodos perto de um posto policial",
+				15000.00, "Compra");
+		imoveis.add(imovel);
+
+		imovel = new Imovel(2, "São Paulo", "Mogi das Cruzes", "Jardim Novo Mundo", "Rua dos Desesperados", "Sobrado", "Perto do nada",
+				190000.00, "Compra");
+		imoveis.add(imovel);
+
+		imovel = new Imovel(3, "Acre", "Poá", "Jardim Oliveira", "Rua dos Andantes", "Apartamento", "Perto da Mata",
+				300.00, "Aluguel");
+		imoveis.add(imovel);
+		
+
+		for (Usuario im : imoveis) {
+			imovelDao.create(im);
+		}
+	}
+
+	
+
+}
