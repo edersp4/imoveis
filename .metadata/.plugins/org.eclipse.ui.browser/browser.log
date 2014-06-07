@@ -28,3 +28,16 @@ jun 07, 2014 13:46:38.17 Running global cleanup code from study base classes.
 jun 07, 2014 13:50:50.93 NOTE: child process received `Goodbye', closing down
 jun 07, 2014 13:50:58.28 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
 jun 07, 2014 13:51:20.19 Running global cleanup code from study base classes.
+jun 07, 2014 13:59:32.56 NOTE: child process received `Goodbye', closing down
+jun 07, 2014 14:03:17.79 No permission to use the keyboard API for http://googleads.g.doubleclick.net
+jun 07, 2014 14:07:54.43 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 07, 2014 14:13:27.43 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 07, 2014 14:25:31.16 NOTE: child process received `Goodbye', closing down
+jun 07, 2014 14:28:20.81 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 07, 2014 14:29:38.79 [5632] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
+jun 07, 2014 14:29:38.79 NOTE: child process received `Goodbye', closing down
+jun 07, 2014 14:29:38.79 NOTE: child process received `Goodbye', closing down
+jun 07, 2014 14:29:38.79 [5528] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
+jun 07, 2014 14:34:33.28 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 07, 2014 14:50:09.71 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 07, 2014 14:53:09.10 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/

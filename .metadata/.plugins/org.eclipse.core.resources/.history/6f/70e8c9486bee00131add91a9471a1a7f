@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:rich="http://richfaces.org/rich"
+xmlns:a4j="http://richfaces.org/a4j">
+<h:head>
+<title>Usuario</title>
+</h:head>
+<body>
+	<f:view>
+		<h:form>
+			<rich:messages ajaxRendered="true"></rich:messages>
+			<h:panelGrid columns="2">
+					<h:outputLabel value="Usuario:"></h:outputLabel>
+					<rich:inplaceInput id="campo-usuario" value="#{login.usuario.nickName}" defaultLabel="usuário" style="width:20px"></rich:inplaceInput>
+
+					<h:outputLabel value="Senha:"></h:outputLabel>
+					<h:inputText size="40">
+					</rich:inplaceInput>
+					</h:inputText>
+			</h:panelGrid>
+			<a4j:commandButton action="#{login.validarSenha}" value="Validar"></a4j:commandButton>
+		</h:form>
+	</f:view>
+</body>
+</html>

@@ -6,20 +6,21 @@ xmlns:h="http://java.sun.com/jsf/html"
 xmlns:f="http://java.sun.com/jsf/core"
 xmlns:rich="http://richfaces.org/rich"
 xmlns:a4j="http://richfaces.org/a4j">
-<head>
-<title></title>
-</head>
+<h:head>
+<title>Usuario</title>
+</h:head>
 <body>
 	<f:view>
 		<h:form>
+			<rich:messages ajaxRendered="true"></rich:messages>
 			<h:panelGrid columns="2">
-					<h:outputLabel value="Usuario:"></h:outputLabel>
-					<rich:inplaceInput id="campo-usuario" value="#{login.usuario.nickName}"></rich:inplaceInput>
+					<h:outputLabel value="Usuario:"/>
+					<h:inputText id="campo-usuario" value="#{login.usuario.nickName}" />
 
-					<h:outputLabel value="Senha:"></h:outputLabel>
-					<rich:inplaceInput id="campo-senha" value="#{login.usuario.senha}"></rich:inplaceInput>
+					<h:outputLabel value="Senha:"/>
+					<h:inputSecret size="40" id="campo-senha" value="#{login.usuario.senha}"/>
 			</h:panelGrid>
-			<a4j:commandButton action="#{login.validarSenha}" value="Validar"></a4j:commandButton>
+			<a4j:commandButton action="#{login.validarSenha}" value="Validar" render="campo-usuario,campo-senha"></a4j:commandButton>
 		</h:form>
 	</f:view>
 </body>
