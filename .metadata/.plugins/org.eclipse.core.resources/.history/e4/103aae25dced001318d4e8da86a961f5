@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j">
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+	<f:view>
+		<h:form>
+			<h:panelGrid>
+				<h:panelGroup>
+					<h:outputLabel value="Usuario"></h:outputLabel>
+					<rich:inplaceInput id="campo-usuario"></rich:inplaceInput>
+				</h:panelGroup>
+				<h:panelGroup>
+					<h:outputLabel value="Usuario"></h:outputLabel>
+					<rich:inplaceInput id="campo-usuario"></rich:inplaceInput>
+				</h:panelGroup>
+
+			</h:panelGrid>
+		</h:form>
+	</f:view>
+</body>
+</html>

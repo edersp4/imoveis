@@ -1,0 +1,18 @@
+package br.com.fiap.entity;
+
+import java.io.Serializable;
+
+public class Imovel implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+	
+	private String estado;
+	private String cidade;
+	private String bairro;
+	private String rua;
+	private String tipoImovel;
+	private String descricao;
+	private double valor;
+	private String tipoNegocio;
+
+}
