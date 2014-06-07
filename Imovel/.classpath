@@ -14,6 +14,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/antlr-2.7.6.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/asm.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/asm-attrs.jar"/>
@@ -30,6 +31,7 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/hibernate-entitymanager.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/hibernate-tools.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javassist.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.faces.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jdbc2_0-stdext.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jta.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar"/>
@@ -39,7 +41,5 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/richfaces-core-api-4.2.2.Final.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/richfaces-core-impl-4.2.2.Final.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/sac.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.faces.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

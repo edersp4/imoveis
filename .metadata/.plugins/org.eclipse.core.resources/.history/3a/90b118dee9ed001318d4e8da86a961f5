@@ -1,0 +1,16 @@
+package br.com.imobiliaria.helper;
+
+import br.com.imobiliaria.entity.Usuario;
+
+public class UsuarioDao extends GenericDaoImpl<Usuario>{
+
+	public UsuarioDao(Class<Usuario> clazz) {
+		super(clazz);
+	}
+	
+	
+	public boolean validarSenhaUsuario(String senha){
+		
+	}
+
+}

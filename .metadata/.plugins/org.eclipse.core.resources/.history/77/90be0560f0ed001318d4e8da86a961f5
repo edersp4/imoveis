@@ -1,0 +1,20 @@
+package br.com.imobiliaria.managed.bean;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+import br.com.imobiliaria.entity.Usuario;
+
+@ManagedBean(name="usuario")
+@SessionScoped
+public class LoginUsuarioMb {
+	
+	@
+	private Usuario usuario = new Usuario();
+	
+	public String validarSenha(){
+		return null;
+	}
+	
+	
+}

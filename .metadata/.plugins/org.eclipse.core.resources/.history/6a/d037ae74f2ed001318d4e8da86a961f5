@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:rich="http://richfaces.org/rich"
+xmlns:a4j="http://richfaces.org/a4j">
+<head>
+<meta charset="ISO-8859-1"/>
+<title></title>
+</head>
+<body>
+	<f:view>
+		<h:form>
+			<h:panelGrid columns="2">
+					<h:outputLabel value="Usuario:"></h:outputLabel>
+					<rich:inplaceInput id="campo-usuario" value="#{login.usuario.nickName}"></rich:inplaceInput>
+
+					<h:outputLabel value="Senha:"></h:outputLabel>
+					<rich:inplaceInput id="campo-senha" value="#{login.usuario.senha}"></rich:inplaceInput>
+					
+					<a4j:commandButton action="#{login.validarSenha}" value="Validar"></a4j:commandButton>
+					
+			</h:panelGrid>
+		</h:form>
+	</f:view>
+</body>
+</html>

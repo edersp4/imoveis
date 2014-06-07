@@ -1,0 +1,23 @@
+package br.com.imobiliaria.helper;
+
+import org.hibernate.Query;
+
+import br.com.imobiliaria.entity.Usuario;
+
+public class UsuarioDao extends GenericDaoImpl<Usuario>{
+
+	public UsuarioDao(Class<Usuario> clazz) {
+		super(clazz);
+	}
+	
+	
+	public boolean validarSenhaUsuario(String senha , String nickName){
+		openSessionAndBeginTransaction();
+		Query query = session.createQuery("from Usuario = : senha and ");
+		query.setString("senha", senha);
+		
+		Usuario usuario = (Usuario)query.uniqueResult();
+		return true;
+	}
+
+}

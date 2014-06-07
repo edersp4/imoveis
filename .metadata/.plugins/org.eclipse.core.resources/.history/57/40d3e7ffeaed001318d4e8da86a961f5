@@ -1,0 +1,19 @@
+package br.com.imobiliaria.helper;
+
+import javax.persistence.Query;
+
+import br.com.imobiliaria.entity.Usuario;
+
+public class UsuarioDao extends GenericDaoImpl<Usuario>{
+
+	public UsuarioDao(Class<Usuario> clazz) {
+		super(clazz);
+	}
+	
+	
+	public boolean validarSenhaUsuario(String senha){
+		openSessionAndBeginTransaction();
+		Query query = session.createQuery("from ")
+	}
+
+}
