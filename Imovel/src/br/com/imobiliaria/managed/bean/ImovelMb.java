@@ -5,6 +5,8 @@ import java.util.List;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.component.UIParameter;
+import javax.faces.event.ActionEvent;
 
 import br.com.imobiliaria.entity.Imovel;
 import br.com.imobiliaria.helper.GenericDaoImpl;
@@ -14,6 +16,9 @@ import br.com.imobiliaria.helper.GenericDaoImpl;
 public class ImovelMb {
 
 	List<Imovel>imoveis = new ArrayList<Imovel>();
+	Imovel imov = new Imovel();
+	
+	Integer row;
 	
 	public void listarImovel(){
 		GenericDaoImpl<Imovel>imovelDao = new GenericDaoImpl<Imovel>(Imovel.class);
@@ -28,5 +33,26 @@ public class ImovelMb {
 	public void setImoveis(List<Imovel> imoveis) {
 		this.imoveis = imoveis;
 	}
+
+	public Integer getRow() {
+		return row;
+	}
+
+	public void setRow(Integer row) {
+		this.row = row;
+	}
+
+	public Imovel getImov() {
+		return imov;
+	}
+
+	public void setImov(Imovel imov) {
+		this.imov = imov;
+	}
+	
+	public void obterObjeto(ActionEvent event) {  
+        UIParameter parameter = (UIParameter) event.getComponent().findComponent("objeto");  
+        this.imov = (Imovel) parameter.getValue();  
+}  
 	
 }

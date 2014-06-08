@@ -61,3 +61,21 @@ jun 08, 2014 12:37:17.79 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http
 jun 08, 2014 12:37:43.51 Running global cleanup code from study base classes.
 jun 08, 2014 12:40:03.85 [Child 4188] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
 jun 08, 2014 12:40:03.85 NOTE: child process received `Goodbye', closing down
+jun 08, 2014 12:59:27.16 No permission to use the keyboard API for http://www.roseindia.net
+jun 08, 2014 12:59:27.27 No permission to use the keyboard API for http://www.roseindia.net
+jun 08, 2014 12:59:27.29 No permission to use the keyboard API for http://www.roseindia.net
+jun 08, 2014 12:59:35.58 No permission to use the keyboard API for http://googleads.g.doubleclick.net
+jun 08, 2014 12:59:35.83 No permission to use the keyboard API for http://googleads.g.doubleclick.net
+jun 08, 2014 13:01:53.74 NOTE: child process received `Goodbye', closing down
+jun 08, 2014 15:51:20.00 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 15:51:25.86 [3840] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
+jun 08, 2014 15:51:25.86 NOTE: child process received `Goodbye', closing down
+jun 08, 2014 15:53:50.11 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 15:54:09.18 Running global cleanup code from study base classes.
+jun 08, 2014 16:07:35.18 No permission to use the keyboard API for http://googleads.g.doubleclick.net
+jun 08, 2014 16:10:38.36 No permission to use the keyboard API for http://googleads.g.doubleclick.net
+jun 08, 2014 16:11:41.33 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 16:27:21.56 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 16:29:07.42 NOTE: child process received `Goodbye', closing down
+jun 08, 2014 16:29:07.52 NOTE: child process received `Goodbye', closing down
+jun 08, 2014 16:29:07.55 [6088] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310

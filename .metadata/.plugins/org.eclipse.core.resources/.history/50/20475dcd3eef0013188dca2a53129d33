@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:rich="http://richfaces.org/rich"
+xmlns:a4j="http://richfaces.org/a4j">
+<h:head>
+<title>Venda de Casa</title>
+</h:head>
+<h:body>
+	<f:view>
+		<h:form >
+		<a4j:commandButton value="Listar Imóveis" action="#{imovel.listarImovel}" render="grid-imoveis"></a4j:commandButton>
+			<br/><br/>
+			<rich:dataTable value="#{imovel.imoveis}" var="im"  id="grid-imoveis" rowKeyVar="row" onrowclick="">
+			
+			<rich:column  >
+				<f:facet name="header">
+					<h:outputText value="Tipo de imóvel"></h:outputText>
+				</f:facet>
+				<h:outputText value="#{im.tipoImovel}"></h:outputText>
+			</rich:column>
+			<rich:column>
+				<f:facet name="header">
+					<h:outputText value="Descrição do imóvel"></h:outputText>
+				</f:facet>
+				<h:outputText value="#{im.descricao}"></h:outputText>
+			</rich:column>
+			<rich:column>
+				<f:facet name="header">
+					<h:outputText value="Valor do imóvel"></h:outputText>
+				</f:facet>
+				<h:outputText value="#{im.valor}">
+					<f:convertNumber type="currency"></f:convertNumber>
+				</h:outputText>
+			</rich:column>
+			<rich:column>
+				<f:facet name="header">
+					<h:outputText value="Valor do imóvel"></h:outputText>
+				</f:facet>
+				<h:outputText value="#{im.valor}">
+					<f:convertNumber type="currency"></f:convertNumber>
+				</h:outputText>
+			</rich:column>
+			<rich:column>
+				<f:facet name="header">
+					<h:outputText value="Valor do imóvel"></h:outputText>
+				</f:facet>
+				<h:outputText value="#{im.valor}">
+					<f:convertNumber type="currency"></f:convertNumber>
+				</h:outputText>
+			</rich:column>
+			</rich:dataTable>
+		</h:form>
+	</f:view>
+</h:body>
+</html>

@@ -14,9 +14,9 @@ xmlns:a4j="http://richfaces.org/a4j">
 		<h:form >
 		<a4j:commandButton value="Listar Imóveis" action="#{imovel.listarImovel}" render="grid-imoveis"></a4j:commandButton>
 			<br/><br/>
-			<rich:dataTable value="#{imovel.imoveis}" var="im"  id="grid-imoveis" >
+			<rich:dataTable value="#{imovel.imoveis}" var="im"  id="grid-imoveis" rowKeyVar="row" onrowclick="">
 			
-			<rich:column>
+			<rich:column  >
 				<f:facet name="header">
 					<h:outputText value="Tipo de imóvel"></h:outputText>
 				</f:facet>
@@ -43,6 +43,14 @@ xmlns:a4j="http://richfaces.org/a4j">
 				<h:outputText value="#{im.valor}">
 					<f:convertNumber type="currency"></f:convertNumber>
 				</h:outputText>
+			</rich:column>
+			<rich:column>
+				<f:facet name="header">
+					<h:outputText value="Detalhe"></h:outputText>
+				</f:facet>
+					<h:commandLink value="Detalhe" actionListener="#{imovel.obterObjeto}">
+						<f:param name="objeto" id="objeto" value="#{im}"/> 
+					</h:commandLink>
 			</rich:column>
 			</rich:dataTable>
 		</h:form>
