@@ -20,7 +20,7 @@ public class LoginUsuarioMb {
 		boolean validado = usuarioDao.validarSenhaUsuario(usuario.getSenha(), usuario.getNickName());
 
 		if (validado) {
-			return "cadastro-login";
+			return "venda";
 		}
 		usuario = new Usuario();
 		FacesContext.getCurrentInstance().addMessage("erro", new FacesMessage("Senha ou login incorreto!"));

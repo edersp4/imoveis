@@ -1,0 +1,8 @@
+package br.com.imobiliaria.managed.bean;
+
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean(name="imovel")
+public class ImovelMb {
+
+}

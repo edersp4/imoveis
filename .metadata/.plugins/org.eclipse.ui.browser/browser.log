@@ -49,3 +49,15 @@ jun 08, 2014 10:05:52.89 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http
 jun 08, 2014 10:08:12.22 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
 jun 08, 2014 10:13:47.20 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
 jun 08, 2014 10:24:25.24 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 10:32:46.52 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 11:04:27.86 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 11:06:53.25 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 11:11:07.66 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+
+jun 08, 2014 12:28:53.38 NEW SESSION
+jun 08, 2014 12:28:53.38 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 12:35:39.58 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 12:37:17.79 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 12:37:43.51 Running global cleanup code from study base classes.
+jun 08, 2014 12:40:03.85 [Child 4188] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
+jun 08, 2014 12:40:03.85 NOTE: child process received `Goodbye', closing down

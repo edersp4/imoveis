@@ -1,0 +1,27 @@
+package br.com.imobiliaria.managed.bean;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+import br.com.imobiliaria.entity.Imovel;
+import br.com.imobiliaria.helper.GenericDaoImpl;
+
+@ManagedBean(name="imovel")
+@SessionScoped
+public class ImovelMb {
+
+	List<Imovel>imoveis = new ArrayList<Imovel>();
+	
+	public void listarImovel(){
+		GenericDaoImpl<Imovel>imovelDao = new GenericDaoImpl<Imovel>(Imovel.class);
+		
+		imoveis = imovelDao.listAll();
+		
+		
+		
+	}
+	
+}
