@@ -20,11 +20,21 @@ public class LoginUsuarioMb {
 		boolean validado = usuarioDao.validarSenhaUsuario(usuario.getSenha(), usuario.getNickName());
 
 		if (validado) {
-			return "sucesso";
+			return "cadastro-login";
 		}
 		usuario = new Usuario();
 		FacesContext.getCurrentInstance().addMessage("erro", new FacesMessage("Senha ou login incorreto!"));
-		return "index";
+		return "";
+	}
+	
+	public void cadastrarUsuario() {
+		UsuarioDao usuarioDao = new UsuarioDao(Usuario.class);
+		try {
+			usuarioDao.create(usuario);
+			FacesContext.getCurrentInstance().addMessage("info", new FacesMessage("Usuário Cadastrado com sucesso!"));
+		} catch (Exception e) {
+			FacesContext.getCurrentInstance().addMessage("info", new FacesMessage("Ocorreu um erro na gravação"));
+		}
 	}
 
 	public Usuario getUsuario() {

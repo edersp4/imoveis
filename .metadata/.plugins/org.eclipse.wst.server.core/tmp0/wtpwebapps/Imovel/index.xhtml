@@ -9,19 +9,23 @@ xmlns:a4j="http://richfaces.org/a4j">
 <h:head>
 <title>Usuario</title>
 </h:head>
-<body>
+<h:body>
 	<f:view>
-		<h:form>
+		<h:form id="form-usuario">
 			<rich:messages ajaxRendered="true"></rich:messages>
-			<h:panelGrid columns="2">
+			<h:panelGrid columns="2" id="grid-usuario">
 					<h:outputLabel value="Usuario:"/>
 					<h:inputText id="campo-usuario" value="#{login.usuario.nickName}" />
 
 					<h:outputLabel value="Senha:"/>
 					<h:inputSecret size="40" id="campo-senha" value="#{login.usuario.senha}"/>
 			</h:panelGrid>
-			<a4j:commandButton action="#{login.validarSenha}" value="Validar" render="campo-usuario,campo-senha"></a4j:commandButton>
+			
+			<h:panelGrid columns="2">
+			<a4j:commandButton action="#{login.validarSenha}" value="Validar" render="grid-usuario"/>
+			<a4j:commandButton action="cadastro-login" value="Cadastrar Usuário" />
+			</h:panelGrid>
 		</h:form>
 	</f:view>
-</body>
+</h:body>
 </html>

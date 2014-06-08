@@ -41,3 +41,11 @@ jun 07, 2014 14:29:38.79 [5528] WARNING: pipe error: 109: file c:/builds/moz2_sl
 jun 07, 2014 14:34:33.28 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
 jun 07, 2014 14:50:09.71 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
 jun 07, 2014 14:53:09.10 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+
+jun 08, 2014 10:02:00.63 NEW SESSION
+jun 08, 2014 10:02:00.63 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 10:04:12.73 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 10:05:52.89 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 10:08:12.22 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 10:13:47.20 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 10:24:25.24 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
