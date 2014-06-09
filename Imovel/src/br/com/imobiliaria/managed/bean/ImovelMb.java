@@ -18,7 +18,6 @@ public class ImovelMb {
 	List<Imovel>imoveis = new ArrayList<Imovel>();
 	Imovel imov = new Imovel();
 	
-	Integer row;
 	
 	public void listarImovel(){
 		GenericDaoImpl<Imovel>imovelDao = new GenericDaoImpl<Imovel>(Imovel.class);
@@ -32,14 +31,6 @@ public class ImovelMb {
 
 	public void setImoveis(List<Imovel> imoveis) {
 		this.imoveis = imoveis;
-	}
-
-	public Integer getRow() {
-		return row;
-	}
-
-	public void setRow(Integer row) {
-		this.row = row;
 	}
 
 	public Imovel getImov() {

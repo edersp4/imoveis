@@ -79,3 +79,25 @@ jun 08, 2014 16:27:21.56 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http
 jun 08, 2014 16:29:07.42 NOTE: child process received `Goodbye', closing down
 jun 08, 2014 16:29:07.52 NOTE: child process received `Goodbye', closing down
 jun 08, 2014 16:29:07.55 [6088] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
+
+jun 08, 2014 21:32:04.96 NEW SESSION
+jun 08, 2014 21:32:04.96 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:36:55.60 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:39:11.29 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:43:41.35 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:44:32.35 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:45:12.42 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:51:01.64 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:52:04.74 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:52:36.37 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:55:37.55 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 21:57:16.77 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:01:58.59 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:03:46.74 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:18:56.28 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:22:40.44 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:23:39.70 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:30:57.37 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:32:38.91 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:33:04.50 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
+jun 08, 2014 22:33:37.08 LdrLoadDll: Blocking load of 'bitguard.dll' -- see http://www.mozilla.com/en-US/blocklist/
