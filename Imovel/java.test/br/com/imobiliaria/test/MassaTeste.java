@@ -50,7 +50,7 @@ public class MassaTeste {
 		usuario = new Usuario(2 , "regiane.costa@bol.com" , "Regiane" , "1234" , "Costa Gomes Nascimento" , "regianec");
 		usuarios.add(usuario);
 		
-		usuario = new Usuario(3 , "gabriel.macedo@yahoo.com" , "Gabriel" , "555" , "Torres do Santos" , "gsantos");
+		usuario = new Usuario(3 , "gabriel.maced@yahoo.com" , "Gabriel" , "555" , "Torres do Santos" , "gsantos");
 		usuarios.add(usuario);
 
 		for (Usuario us : usuarios) {
